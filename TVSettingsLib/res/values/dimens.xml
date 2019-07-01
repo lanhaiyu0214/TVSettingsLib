@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="setingVaule_item_text_width">275dp</dimen>
+    <dimen name="settingValue_item_margin_top">5dp</dimen>
+    <dimen name="setting_item_margin_top">10dp</dimen>
+    <dimen name="settingValue_left_nav_margin_left">90dp</dimen>
+    <dimen name="settingVaule_middle_text_width">300dp</dimen>
+    
+    <dimen name="list_view_right_summary_width">130dp</dimen>
+</resources>

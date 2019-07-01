@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     
+    
+    <!-- 
+            Add By self:
+            that means we edit the strings,
+            and can not find them in other applications,
+            like Settings app.
+    -->    
+    
+    <string name="app_name">System settings</string>
+    <string name="action_settings">Settings</string>
+    <!-- Entry_Item -->
+    <string name="system_setttings">Settings</string>
+    <string name="projection_setttings">Projection</string>
+    <string name="projection_setttings_summary_normal">Brightness is normal</string>
+    <string name="projection_setttings_summary_high">Brightness is high</string>
+    <string name="projection_setttings_summary">Brightness is  </string>
+    <string name="network_setttings">Network</string>
+    <string name="network_setttings_none">Wireless not connected</string>
+    <string name="common_setttings">General</string>
+    <string name="vertion_latest">Already using the latest version</string>
+    <!-- network settings -->
+    <string name="network_setttings_wireless">Wireless Network</string>
+    <string name="network_setttings_wireless_summary">Configure wireless network</string>
+    <string name="network_setttings_wlan">WLAN Hotspot</string>
+    <string name="network_setttings_wlan_summary">Wi-Fi hotspot for devices</string>
+    <string name="network_setttings_bluetooth">Bluetooth</string>
+    <string name="network_setttings_bluetooth_summary">Support keyboard,headset,audio devices,file transfer\u2026</string>
+     <!-- common settings -->
+    <string name="common_setttings_wallpaper">Wallpaper</string>
+    <string name="common_setttings_wallpaper_summary">Select wallpaper</string>
+    <string name="common_setttings_system_info">System Info</string>
+    <string name="common_setttings_system_info_summary">Check device type,.etc</string>
+    <string name="common_setttings_system_upgrade">System Upgrade</string>
+    <string name="common_setttings_system_upgrade_summary">Check latest version</string>
+    <string name="common_setttings_usb_upgrade">USB Upgrade</string>
+    <string name="common_setttings_usb_upgrade_summary">Update local</string>
+    <string name="common_setttings_system_restore">Factory Recovery</string>
+    <string name="common_setttings_system_restore_summary">Erase all content and settings</string>
+    <string name="common_setttings_system_language">Language</string>
+    <string name="common_setttings_system_input_method">Input Method</string>
+    <string name="common_setttings_system_language_summary">Set language</string>
+    <string name="common_setttings_system_input_method_summarry">Set input method</string>
+    <string name="common_setttings_system_time">Time Settings</string>
+    <string name="common_setttings_system_time_summary">Set time</string>
+    <!-- system info -->
+    <string name="system_info_copyright">Copyright Statement</string>
+    <string name="system_info_storage">Internal Storage</string>
+    <string name="system_info_memory">Memory</string>
+    <string name="system_info_device_mode">Device Name</string>
+    <string name="system_info_device_serial_number">Device Serial Number</string>
+    <string name="system_info_system_version">System Version</string>
+    <string name="system_info_firmware_version">Firmware Version</string>
+    <string name="system_info_wireless_mac">Wireless MAC</string>
+    <string name="system_info_eth0_mac">Ethernet MAC</string>
+    <!-- projection settings -->
+    <string name="toggle_on">On</string>
+    <string name="toggle_oning">Turning On&#8230;</string>
+    <string name="toggle_off">Off</string>
+    <string name="toggle_auto">Automatic</string>
+    <string name="toggle_manual">Manual</string>
+    <string name="projection_settings_title">Projection</string>
+    <string name="projection_settings_boot_auto_focus">Autofocus on startup</string>
+    <string name="projection_settings_auto_focus">Auto Focus</string>
+    <string name="projection_settings_manual_focus">Manual Focus</string>
+    <string name="projection_settings_auto_correct">Keystone Auto Correction</string>
+    <string name="projection_settings_manual_correct">Keystone Manual Correction</string>
+    <string name="projection_settings_bright_title">Brightness Selection</string>
+    <string name="projection_settings_continubright_title">Brightness Selection</string>
+    <string name="projection_settings_bright_hight">High</string>
+    <string name="projection_settings_bright_nomal">Normal</string>
+    <string name="projection_settings_bright_movie">Movie</string>
+    <string name="projection_settings_bright_energy2">Energy2</string>
+    <string name="projection_settings_bright_standards">Standard</string>
+    <string name="projection_settings_bright_energy1">Energy1</string>
+    
+    <string name="projection_settings_manualbright_title">Custom Brightness</string>
+    <string name="projection_settings_bright_custom">Custom</string>
+    <string name="projection_settings_bright_standard">Standard</string>
+    
+    <string name="projection_settings_screen_title">Screen Scaling</string>
+    <string name="projection_settings_screen_full">Full</string>
+    <string name="projection_settings_screen_21">21:9</string>
+    <string name="projection_settings_screen_16">16:9</string>
+    <string name="projection_settings_screen_10">16:10</string>
+    <string name="projection_settings_screen_4">4:3</string>
+    <string name="projection_settings_mode">Projection Mode</string>
+    <string name="projection_settings_moto">Slide switch</string>
+    <string name="projection_settings_moto_alway">Alway On</string>
+    <string name="projection_settings_moto_automatic">Automatic</string>
+    <string name="projection_settings_mode_zz">Normal</string>
+    <string name="projection_settings_mode_zb">Mirror</string>
+    <string name="projection_settings_mode_dz">Flip</string>
+    <string name="projection_settings_mode_db">Mirror&amp;Flip</string>
+    <string name="projection_settings_usb">USB Debug</string>
+    <string name="projection_settings_debug">Engineer Debug</string>
+    <string name="projection_setttings_switch_title">Boot signal source</string>
+    <string name="projection_setttings_switch_xmui">Close</string>
+    <string name="projection_setttings_switch_hdmi">HDMI</string>
+    
+    <string name="appo_str_setting_usbmode">USB Debug is on！</string>
+    
+    <string name="autorun_setting_title">Autorun App Settings</string>
+    <string name="autorun_setting_open">Automatic</string>
+    <string name="autorun_setting_close">close</string>
+    
+    <!-- bluetooth -->
+    <string name="bluetoth_appo_paired">Paired</string>
+    <string name="bluetooth_appo_title">Bluetooth</string>
+    <string name="bluetooth_appo_find">Find</string>
+    <string name="bluetooth_appo_pair">Pair</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="open_fail">Device open failed!</string>
+    <string name="bluetooth_switch">Bluetooth Switch</string>
+    <string name="bluetooth_search_devices">Search Devices</string>
+    <string name="bluetooth_rename_devices">Rename Devices</string>
+    <string name="bluetooth_input_name">Please enter the device name</string>
+    
+    <!-- system storage -->
+    <string name="appo_phone_memory_summary">Total:%1$s,Available:%2$s</string>
+    <string name="appo_system_androidversion_summary">Android %1$s \n %2$s</string>
+    <string name="storage_detail">Storage Detail</string>
+    <string name="storage_system">System</string>
+    <string name="storage_system_summary">Android System</string>
+    <string name="storage_cache">Cache</string>
+    <string name="storage_cache_summary">Android System Cache</string>
+    <string name="storage_data">Data Storage</string>
+    <string name="storage_data_summary">Application will be installed here</string>
+    <string name="storage_sdcard">Internal SD card</string>
+    <string name="storage_sdcard_summary">photos,music,and videos\u2026</string>
+    <string name="storage_total">Total:%1$s</string>
+    <string name="storage_total_available">Total:%1$s,Available:%2$s</string>
+    
+    <!-- system restore -->
+    <string name="system_restore_title">Factory Recovery</string>
+    <string name="system_restore_summary">This operation will remove all user data, and recovery the system.</string>
+    <string name="system_restore_delsdcard">Erase all data in the internal storage, such as music and photos</string>
+    <string name="system_restore_commit">Confirm to factory recovery</string>
+    <string name="system_restore_cancel">Cancel to factory recovery</string>
+    
+    <!-- wifi -->
+    <string name="ip_addr">Edit IP address</string>
+    <string name="ip_invalid">IP address is invalid</string>
+    <string name="ip_mask">Edit subnet mask</string>
+    <string name="ip_fetch_mode">Manual modify IP</string>
+    <string name="ip_addr_colon">IP address:</string>
+    <string name="ip_mask_colon">Mask:</string>
+    <string name="ip_gateway_colon">Gateway:</string>
+    <string name="ip_dns_colon">DNS:</string>
+    <string name="ip_connect_colon">Disconnect and cancel</string>
+    <string name="ip_forgetandconnect_forget">Remove save</string>
+    <string name="ip_forgetandconnect_connect">Connect</string>
+    <string name="str_wifi_title">Wireless Connection</string>
+    <string name="str_wifi_dialog_signal">signal intensity</string>
+    <string name="str_wifi_dialog_safety">Security</string>
+    <string name="str_wifi_dialog_password">Password</string>
+    <string name="str_wifi_dialog_showPassword">Show Password</string>
+    <string name="str_wifi_connect">Connction</string>
+    <string name="str_wifi_cancel">Cancel</string>
+    <string name="wifiap_password_error">Less than 8 characters, please re-enter！</string>
+    <string name="wifiap_security_open">open</string>
+    <string name="wifiap_security_wpa">WPA PSK</string>
+    <string name="wifiap_security_wpa2">WPA2 PSK</string>
+    <string name="wifiap_password_addpassword">Password</string>
+    <string name="wifiap_security_title">Security Type</string>
+    <string name="wifi_password_error">Password Error!</string>
+    <string name="wifi_dialog_comfirm_conent">Are you sure to do?</string>
+    <string name="wifi_dialog_comfirm_connect">Connect</string>
+    <string name="wifi_dialog_comfirm_forget">Forget</string>
+    
+    
+    <string name="wifi_addwifi_title">Add NetWork</string> 
+    <string name="wifi_addwifi_security_none">NONE</string>  
+    <string name="wifi_addwifi_security_wep">WEP</string>  
+    <string name="wifi_addwifi_security_wpa">WPA/WPA2 PSK</string>   
+    <string name="wifi_addwifi_security_802">802.1x EAP</string>   
+    <string name="wifi_connectinfo_changeip_title">IP Edit</string>
+    <string name="wifi_connectinfo_changeip_ip">IP Address</string>
+    <string name="wifi_connectinfo_changeip_gateway">Gateway</string>
+    <string name="wifi_connectinfo_changeip_mask">Mask</string>
+    <string name="wifi_connectinfo_changeip_dns">DNS</string>
+    <string name="wifi_connectinfo_changeip_input_error">Input Error!</string>
+    <string name="wifi_connectinfo_changeip_dialog_title">Manual Edit</string>
+    <string name="wifi_switch">Wireless Switch</string>
+    <string name="wifiap_ssid">SSID:</string>
+    <string name="wifiap_ssid_dialog_title">SSID</string>
+    <string name="wifiap_security">Security Type:</string>
+    <string name="wifiap_password">Password:</string>
+    <string name="wifiap_switch">WLAN Hotspot Switch:</string>
+    <string name="wifiap_title">WLAN Hotspot Settings</string>
+    <string name="wifiap_ssid_title">Add network</string>
+    <string name="wifiap_password_title">WLAN Hotspot Settings</string> 
+    <string name="wifi_dialog_title">&#160;Password</string>
+    <string name="wifi_dialog_confirm">Confirm</string>
+    <string name="str_switch_opening">Turning On</string>
+    <string name="str_switch_closeing">Turning Off</string>
+    
+    <!-- Language -->
+    <string name="language_english">English</string>
+    <string name="language_chinese">中文简体</string>
+    <string name="language_traditionl_chinese">中文繁體</string>
+    
+    <!-- license -->
+    <string name="settings_license_activity_title">Open source licenses</string>
+    <string name="settings_license_activity_unavailable">There is a problem loading the licenses.</string>
+    <string name="settings_license_activity_loading">Loading\u2026</string>
+    
+    <!-- wallpaper -->
+    <string name="wallpaper_set">Settings</string>
+    <string name="str_commmit">Confirm</string>
+    <string name="str_cancel">Cancel</string>
+    
+    <!--movie mira -->
+    <string name="display_title">Display setting</string>
+    <string name="movie_mira_title">Multi-Screen</string>
+    <string name="movie_mira_use">Use steps:</string> 
+    <string name="movie_mira_note">By Installing XM Fly, you can directly remote control the micro projector through your mobile phone, tablet or PC, and send videos, pictures, files, etc. to the micro projector.</string> 
+    <string name="movie_mira_wifiSSID">router net</string>
+    <string name="movie_mira_instaruction_1">Use your device to connect the network:</string> 
+    <string name="movie_mira_instaruction_1_patr1">Use your device to connect the network:</string> 
+    <string name="movie_mira_instaruction_1_patr2"></string> 
+    <string name="movie_mira_instaruction_2">Scan the QR to download App&#160;XM Fly, or via AppStore,Google play</string>
+    <string name="movie_mira_instaruction_2_2">Windows users can visit http://192.168.0.1 to download the App</string> 
+    <string name="movie_mira_instaruction_2_2_part1">Windows users can visit http://</string>
+    <string name="movie_mira_instaruction_2_2_part2">to download the App</string>
+    <string name="movie_mira_instaruction_3"></string> 
+    <string name="movie_mira_instaruction_3_patr1"></string> 
+    <string name="movie_mira_instaruction_3_patr2"></string> 
+    <string name="movie_mira_instaruction_3_patr3"></string> 
+    <string name="movie_mira_instaruction_3_patr4"></string> 
+    <string name="movie_mira_instaruction_4">Open XM Fly to connect ID:</string>
+    <string name="movie_mira_instaruction_4_part1">Open XM Fly to connect ID:</string> 
+    <string name="movie_mira_instaruction_4_part2"></string> 
+    <string name="movie_mira_instaruction_airplay">Apple users can directly use Airplay to share the content with this device</string>
+
+    <string name="movie_mira_firstuse_android">Android code</string>
+    <string name="movie_mira_firstuse_ios">iOS code</string>
+    <string name="movie_mira_warning">Warning</string>
+    <string name="movie_mira_message">Sorry,XM Fly has not registered please connect the Internet to register it .</string>
+    <string name="movie_mira_ok">OK</string>
+    
+    <!-- recovery -->
+    <string name="comfirmdialog_title_alert">Warning</string>
+    <string name="comfirmdialog_content">Are you sure you want to restore the factory settings?</string>
+    <string name="comfirmdialog_ok">Confirm</string>
+    <string name="comfirmdialog_cancel">Cancel</string>
+    <string name="appo_str_setting_recovery">Run Recovery Mode</string>
+    <string name="appo_str_setting_recovery_openusb">Please open usb mode!</string>
+    <string name="appo_str_setting_recovery_success">Start Recovery Success,Please Waiting!</string>
+    <string name="appo_str_setting_recovery_failed">Start Recovery failed!</string>
+    
+    <!-- time -->
+    <string name="time_settings_title">Time Settings</string>
+    <string name="time_settings_auto">Automatic Time</string>
+    <string name="time_settings_manual">Manual Time</string>
+    
+    <!-- VPN -->
+    <string name="network_settings_vpn_tile">VPN</string>
+    
+    <!--Launcher Mode-->
+    <string name="launchermode_setting_title">Launcher Mode</string>
+    <string name="launchermode_setting_home">Home</string>
+    <string name="launchermode_setting_office">Office</string>
+
+    
+    <string name="projection_malformation_correct">Malformation Correct</string>
+    <string name="network_setttings_ethernet_connected">Ethernet already connected</string>
+    <string name="network_setttings_ethernet_summary">Set Ethernet</string>
+        <string name="network_setttings_ethernet_switch">Ethernet Switch</string>
+	<string name="network_settings_pppoe">PPPoE</string>
+    <string name="network_setting_popoe_summary">Set PPPoE</string>
+    <string name="network_setttings_ethernet">Ethernet</string>
+    <string name="network_setttings_ethernet_input">Ethernet cable plug in</string>
+    <string name="network_setttings_ethernet_inplug_notice">Please plug in the cable</string>
+    
+    <string name="projector_image_settings">Image Settings</string>
+    <string name="projection_projector_imagemode">Image Mode</string>
+    <string name="projection_projector_imagemode_standard">Standard</string>
+    <string name="projection_projector_imagemode_soft">Soft</string>
+    <string name="projection_projector_imagemode_gorgeous">Gorgeous</string>
+    <string name="projection_projector_imagemode_custom">Custom</string>
+    <string name="projection_projector_colormode">Color Mode</string>
+    <string name="projection_projector_colormode_warm">Warm</string>
+    <string name="projection_projector_colormode_standard">Standard</string>
+    <string name="projection_projector_colormode_cool">Cool</string>
+    
+    
+    <string name="projector_contrast">Contrast</string>
+    <string name="projector_brightness">Brightness</string>
+    <string name="projector_saturation">Saturation</string>
+    <string name="projector_sharpness">Sharpness</string>
+    
+    <string name="projector_screensaver">Screen Saver</string>
+    <string name="projector_screensaver_title">Daydream</string>
+    <string name="projector_screensaver_close">Close</string>
+    <string name="projector_screensaver_04">4 min</string>
+    <string name="projector_screensaver_08">8 min</string>
+    <string name="projector_screensaver_12">12 min</string>
+    <string name="projector_poweroff">Power off</string>
+    <string name="projector_poweroff_close">Close</string>
+    <string name="projector_poweroff_05">5 min</string>
+    <string name="projector_poweroff_10">10 min</string>
+    <string name="projector_poweroff_30">30 min</string>
+    <!-- Boot Souce -->
+    <string name="prjection_bootSource">Boot Source</string>
+    <string name="prjection_bootSource_none">close</string>
+    <string name="prjection_bootSource_hdmi">HDMI</string>
+    <string name="prjection_bootSource_international_hdmi">HD Multimedia</string>
+    
+
+    <string name="prjection_spdif">Speaker switch</string>
+    <string name="prjection_bootSource_hdmi_1">HDMI 1</string>
+    <string name="prjection_bootSource_hdmi_2">HDMI 2</string>
+    <string name="prjection_bootSource_hdmi_3">HDMI 3</string>
+    <string name="prjection_bootSource_hdmi_international_1">HD Multimedia 1</string>
+    <string name="prjection_bootSource_hdmi_international_2">HD Multimedia 2</string>
+    <string name="prjection_bootSource_hdmi_international_3">HD Multimedia 3</string>
+    
+    <string name="projection_hdmimode_title">HDMI mode</string>
+    <string name="projection_hdmimode_international_title">HD Multimedia mode</string>
+    <string name="projection_hdmimode_pc">PC mode</string>
+    <string name="projection_hdmimode_dvd">DVD mode</string>
+	
+    <string name="projection_scale_horizental">Horizental Scale</string>
+    <string name="projection_scale_vertival">Vertical Scale</string>
+    <string name="projection_scale_proportional">Proportional Scale</string>
+    
+    <string name="info_typec_arrive_max_title">Brightness Limitation!</string>
+    <string name="info_typec_arrive_max_message">Brightness can not be increased depend on the power,by using standard power you can!</string>
+    
+	<string name="projection_hdmimode_auto">Auto mode</string>
+   </resources>

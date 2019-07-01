@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+	
+    <!-- 
+        Add By self:
+        that means we edit the strings,
+        and can not find them in other applications,
+        like Settings app.
+    -->
+    <string name="app_name">系统设置</string>
+    <string name="action_settings">设置</string>
+    <!-- Entry_Item -->
+    <string name="system_setttings">系统设置</string>
+    <string name="projection_setttings">投影设置</string>
+    <string name="projection_setttings_summary_normal">屏幕亮度为普通</string>
+    <string name="projection_setttings_summary_high">屏幕亮度为高亮</string>
+    <string name="projection_setttings_summary">屏幕亮度为  </string>
+    <string name="network_setttings">网络设置</string>
+    <string name="network_setttings_none">无线网络未连接</string>
+    <string name="common_setttings">通用设置</string>
+    <string name="vertion_latest">当前已是最新版本</string>
+    <!-- network settings -->
+    <string name="network_setttings_wireless">无线网络</string>
+    <string name="network_setttings_wireless_summary">设置当前无线网络</string>
+    <string name="network_setttings_wlan">WLAN热点</string>
+    <string name="network_setttings_wlan_summary">设置WLAN热点</string>
+    <string name="network_setttings_bluetooth">蓝牙设置</string>
+    <string name="network_setttings_bluetooth_summary">支持键盘、耳机、音响设备、文件传输等连接</string>
+     <!-- common settings -->
+    <string name="common_setttings_wallpaper">壁纸</string>
+    <string name="common_setttings_wallpaper_summary">选择桌面背景壁纸</string>
+    <string name="common_setttings_system_info">系统信息</string>
+    <string name="common_setttings_system_info_summary">查看设备号等信息</string>
+    <string name="common_setttings_system_upgrade">系统升级</string>
+    <string name="common_setttings_system_upgrade_summary">检测新系统版本</string>
+    <string name="common_setttings_usb_upgrade">U盘升级</string>
+    <string name="common_setttings_usb_upgrade_summary">本地U盘升级</string>
+    <string name="common_setttings_system_restore">还原出厂状态</string>
+    <string name="common_setttings_system_restore_summary">清除用户所有数据</string>
+    <string name="common_setttings_system_language">语言</string>
+    <string name="common_setttings_system_input_method">输入法</string>
+    <string name="common_setttings_system_language_summary">设置系统语言</string>
+    <string name="common_setttings_system_input_method_summarry">设置系统输入法</string>
+    <string name="common_setttings_system_time">时间</string>
+    <string name="common_setttings_system_time_summary">设置系统时间</string>
+    <!-- system info -->
+    <string name="system_info_copyright">版权声明</string>
+    <string name="system_info_storage">存储空间</string>
+    <string name="system_info_memory">内存空间</string>
+    <string name="system_info_device_mode">设备名称</string>
+    <string name="system_info_device_serial_number">设备序列号</string>
+    <string name="system_info_system_version">系统版本</string>
+    <string name="system_info_firmware_version">固件版本</string>
+    <string name="system_info_wireless_mac">无线MAC</string>
+    <string name="system_info_eth0_mac">有线 MAC</string>
+    <!-- projection settings -->
+    <string name="toggle_on">开</string>
+    <string name="toggle_oning">正在打开&#8230;</string>
+    <string name="toggle_off">关</string>
+    <string name="toggle_auto">自动</string>
+    <string name="toggle_manual">手动</string>
+    <string name="projection_settings_title">投影设置</string>
+    <string name="projection_settings_boot_auto_focus">开机自动对焦</string>
+    <string name="projection_settings_auto_focus">自动对焦</string>
+    <string name="projection_settings_manual_focus">手动对焦</string>
+    <string name="projection_settings_auto_correct">梯形校正</string>
+    <string name="projection_settings_manual_correct">手动校正</string>
+    <string name="projection_settings_bright_title">亮度选择</string>
+    <string name="projection_settings_continubright_title">连续亮度调节</string>
+    <string name="projection_settings_bright_hight">高亮</string>
+    <string name="projection_settings_bright_nomal">普通</string>
+    <string name="projection_settings_bright_movie">观影</string>
+    <string name="projection_settings_bright_energy2">节能2</string>
+    <string name="projection_settings_bright_standards">标准</string>
+    <string name="projection_settings_bright_energy1">节能1</string>
+    
+    <string name="projection_settings_manualbright_title">光源亮度</string>
+    <string name="projection_settings_bright_custom">自定义</string>
+    <string name="projection_settings_bright_standard">标准</string>
+    
+    <string name="projection_settings_screen_title">屏幕缩放</string>
+    <string name="projection_settings_screen_full">全屏</string>
+    <string name="projection_settings_screen_21">21:9</string>
+    <string name="projection_settings_screen_16">16:9</string>
+    <string name="projection_settings_screen_10">16:10</string>
+    <string name="projection_settings_screen_4">4:3</string>
+    <string name="projection_settings_mode">投影方式</string>
+    <string name="projection_settings_mode_zz">桌面正投</string>
+    <string name="projection_settings_mode_zb">桌面背投</string>
+    <string name="projection_settings_mode_dz">吊顶正投</string>
+    <string name="projection_settings_mode_db">吊顶背投</string>
+    <string name="projection_settings_moto">滑盖开关</string>
+    <string name="projection_settings_moto_alway">常开</string>
+    <string name="projection_settings_moto_automatic">自动</string>
+    <string name="projection_settings_usb">USB切换</string>
+    <string name="projection_settings_debug">工程菜单</string>
+    <string name="projection_setttings_switch_title">开机信号源</string>
+    <string name="projection_setttings_switch_xmui">关闭</string>
+    <string name="projection_setttings_switch_hdmi">HDMI</string>
+    <string name="appo_str_setting_usbmode">USB接口已打开！</string>
+     
+    <string name="autorun_setting_title">开机自动启动管理</string>
+    <string name="autorun_setting_open">自动</string>
+    <string name="autorun_setting_close">关闭</string>
+    <!-- bluetooth -->
+    <string name="bluetoth_appo_paired">已匹配</string>
+    <string name="bluetooth_appo_title">蓝牙</string>
+    <string name="bluetooth_appo_find">搜索</string>
+    <string name="bluetooth_appo_pair">匹配</string>
+    <string name="bluetooth_title">蓝牙设置</string>
+    <string name="dlg_cancel">取消</string>
+    <string name="open_fail">设备打开失败!</string>
+    <string name="bluetooth_switch">蓝牙开关</string>
+    <string name="bluetooth_search_devices">搜索设备</string>
+    <string name="bluetooth_rename_devices">重命名设备</string>
+    <string name="bluetooth_input_name">请输入设备名称</string>
+    
+    <!-- system storage -->
+    <string name="appo_phone_memory_summary">总共:%1$s,可用:%2$s</string>
+    <string name="appo_system_androidversion_summary">Android %1$s \n %2$s</string>
+    <string name="storage_detail">存储详情</string>
+    <string name="storage_system">系统</string>
+    <string name="storage_system_summary">Android系统</string>
+    <string name="storage_cache">缓存</string>
+    <string name="storage_cache_summary">Android系统缓存</string>
+    <string name="storage_data">数据存储</string>
+    <string name="storage_data_summary">应用程序将会安装在这里</string>
+    <string name="storage_sdcard">内部SD卡</string>
+    <string name="storage_sdcard_summary">可以存储图片、音乐、视频等多媒体文件</string>
+    <string name="storage_total">总共:%1$s</string>
+    <string name="storage_total_available">总共:%1$s,可用:%2$s</string>
+    <!-- system restore -->
+    <string name="system_restore_title">还原出厂设置</string>
+    <string name="system_restore_summary">该操作将删除本机所有数据，并还原所有设置</string>
+    <string name="system_restore_delsdcard">清除内部 SD卡中的全部数据，例如音乐和照片</string>
+    <string name="system_restore_commit">确定还原出厂设置</string>
+    <string name="system_restore_cancel">取消还原出厂设置</string>
+    <!-- wifi -->
+    <string name="ip_addr">编辑IP地址</string>
+    <string name="ip_invalid">IP地址无效</string>
+    <string name="ip_mask">编辑子网掩码</string>
+    <string name="ip_fetch_mode">手动修改IP</string>
+    <string name="ip_addr_colon">IP地址:</string>
+    <string name="ip_mask_colon">子网掩码:</string>
+    <string name="ip_gateway_colon">网关:</string>
+    <string name="ip_dns_colon">DNS:</string>
+    <string name="ip_connect_colon">断开并取消保存</string>
+    <string name="ip_forgetandconnect_forget">取消保存</string>
+    <string name="ip_forgetandconnect_connect">连接</string> 
+    <string name="str_wifi_title">无线连接</string>
+    <string name="str_wifi_dialog_signal">信号强度</string>
+    <string name="str_wifi_dialog_safety">安全性</string>
+    <string name="str_wifi_dialog_password">密码</string>
+    <string name="str_wifi_dialog_showPassword">显示密码</string>
+    <string name="str_wifi_connect">连接</string>
+    <string name="str_wifi_cancel">取消</string>
+    <string name="wifiap_password_error">输入少于八位，请重新输入！</string>
+    <string name="wifiap_security_open">open</string>
+    <string name="wifiap_security_wpa">WPA PSK</string>
+    <string name="wifiap_security_wpa2">WPA2 PSK</string>
+    <string name="wifiap_password_addpassword">密码</string>
+    <string name="wifiap_security_title">安全类型</string>
+    <string name="wifi_password_error">密码错误!</string>
+    <string name="wifi_dialog_comfirm_conent">执行以下操作?</string>
+    <string name="wifi_dialog_comfirm_connect">连接</string>
+    <string name="wifi_dialog_comfirm_forget">忘记密码</string>
+    
+    <string name="wifi_addwifi_title">添加网络</string> 
+    <string name="wifi_addwifi_security_none">NONE</string>  
+    <string name="wifi_addwifi_security_wep">WEP</string>  
+    <string name="wifi_addwifi_security_wpa">WPA/WPA2 PSK</string>   
+    <string name="wifi_addwifi_security_802">802.1x EAP</string>   
+    
+    
+    <string name="wifi_connectinfo_changeip_title">IP编辑</string>
+    <string name="wifi_connectinfo_changeip_ip">IP地址</string>
+    <string name="wifi_connectinfo_changeip_gateway">网关</string>
+    <string name="wifi_connectinfo_changeip_mask">子网掩码</string>
+    <string name="wifi_connectinfo_changeip_dns">DNS</string>
+    <string name="wifi_connectinfo_changeip_input_error">输入错误！</string>
+    <string name="wifi_connectinfo_changeip_dialog_title">手动编辑</string>
+    <string name="wifi_switch">无线开关</string>
+    <string name="wifiap_ssid">SSID:</string>
+    <string name="wifiap_ssid_dialog_title">SSID</string>
+    <string name="wifiap_security">安全类型:</string>
+    <string name="wifiap_password">密码:</string>
+    <string name="wifiap_switch">WLAN热点开关:</string>
+    <string name="wifiap_title">热点设置</string>
+    <string name="wifiap_ssid_title">添加网络</string>
+    <string name="wifiap_password_title">热点设置</string> 
+    <string name="wifi_dialog_title">&#160;密码</string>
+    <string name="wifi_dialog_confirm">确认</string>
+    
+    <string name="str_switch_opening">正在打开...</string>
+    <string name="str_switch_closeing">正在关闭...</string>
+    
+    <!-- Language -->
+    <string name="language_english">English</string>
+    <string name="language_chinese">中文简体</string>
+    <string name="language_traditionl_chinese">中文繁體</string>
+    
+    <string name="settings_license_activity_title" msgid="7553683406244228650">"开放源代码许可"</string>
+    <string name="settings_license_activity_unavailable" msgid="4210539215951487627">"加载许可时出现问题。"</string>
+    <string name="settings_license_activity_loading" msgid="3337535809093591740">"正在加载..."</string>
+    <string name="wallpaper_set">设置</string>
+    <string name="str_commmit">确认</string>
+    <string name="str_cancel">取消</string>
+    <!--movie mira -->
+    <string name="display_title">显示设置</string>
+    <string name="movie_mira_title">多屏互动</string>
+    <string name="movie_mira_use">使用步骤：</string>
+    <string name="movie_mira_note">安装小明助手，您可以通过手机，平板或者PC直接遥控微投，发送视频，图片，文档等到微投上。</string>
+    <string name="movie_mira_wifiSSID">路由器网络</string>
+    <string name="movie_mira_instaruction_1">请将你的设备连接至网络：</string>
+    <string name="movie_mira_instaruction_1_patr1">请将你的设备连接至网络：</string>
+    <string name="movie_mira_instaruction_1_patr2"></string>
+    <string name="movie_mira_instaruction_2">扫描二维码或从AppStore,360,豌豆荚等应用市场下载App&#160;小明助手</string>
+    <string name="movie_mira_instaruction_2_2_part1">Windows用户访问http://</string>
+    <string name="movie_mira_instaruction_2_2_part2">下载电脑客户端</string>
+    <string name="movie_mira_instaruction_3">Windows用户可直接用浏览器访问下载安装小明助手</string>
+    <string name="movie_mira_instaruction_3_patr1"></string>
+    <string name="movie_mira_instaruction_3_patr2"></string>
+    <string name="movie_mira_instaruction_3_patr3"></string>
+    <string name="movie_mira_instaruction_3_patr4"></string>
+    <string name="movie_mira_instaruction_4">打开小明助手连接微投</string>
+    <string name="movie_mira_instaruction_4_part1">打开小明助手连接微投</string>
+    <string name="movie_mira_instaruction_4_part2"></string>
+    <string name="movie_mira_instaruction_airplay">苹果用户可直接使用Airplay共享屏幕内容到投影</string>
+	<string name="movie_mira_firstuse_android">安卓二维码</string>
+	<string name="movie_mira_firstuse_ios">iOS二维码</string>
+    
+    
+	<string name="movie_mira_warning">提示</string>
+    <string name="movie_mira_message">对不起，小明助手没有注册，请联网注册！</string>
+    <string name="movie_mira_ok">确定</string>
+    
+   <!-- recovery -->
+    <string name="comfirmdialog_title_alert">警告</string>
+    <string name="comfirmdialog_content">确定要还原出厂设置？</string>
+    <string name="comfirmdialog_ok">确定</string>
+    <string name="comfirmdialog_cancel">取消</string>
+    <string name="appo_str_setting_recovery">进入刷机模式</string>
+    <string name="appo_str_setting_recovery_openusb">请打开USB调试模式!</string>
+    <string name="appo_str_setting_recovery_success">正在进入刷机模式，请等待!</string>
+    <string name="appo_str_setting_recovery_failed">刷机模式开启失败!</string>
+    
+        
+    <!-- time -->
+    <string name="time_settings_title">时间设置</string>
+    <string name="time_settings_auto">获取网络时间</string>
+    <string name="time_settings_manual">修改时间</string>
+    
+    
+    <!-- VPN -->
+    <string name="network_settings_vpn_tile">VPN</string>
+    
+    <!--Launcher mode-->    
+    <string name="launchermode_setting_title">桌面版本</string>
+    <string name="launchermode_setting_home">娱乐版</string>
+    <string name="launchermode_setting_office">商务版</string>
+    
+    
+    <string name="projection_malformation_correct">畸形矫正</string>
+    <string name="network_setttings_ethernet_connected">有线网络已连接</string>
+    <string name="network_setttings_ethernet_summary">设置有线网络</string>
+    
+    <string name="network_setttings_ethernet_switch">有线网络开关</string>
+    <string name="network_settings_pppoe">宽带拨号</string>
+    <string name="network_setting_popoe_summary">设置宽带拨号</string>
+    <string name="network_setttings_ethernet">有线网络</string>
+    <string name="network_setttings_ethernet_input">已插入网线</string>
+    <string name="network_setttings_ethernet_inplug_notice">请您先插入网线</string>
+    
+    <string name="projector_image_settings">图像设置</string>
+    <string name="projection_projector_imagemode">图像模式</string>
+    <string name="projection_projector_imagemode_standard">标准</string>
+    <string name="projection_projector_imagemode_soft">柔和</string>
+    <string name="projection_projector_imagemode_gorgeous">艳丽</string>
+    <string name="projection_projector_imagemode_custom">自定义</string>
+    <string name="projection_projector_colormode">色温模式</string>
+    <string name="projection_projector_colormode_warm">暖色</string>
+    <string name="projection_projector_colormode_standard">标准</string>
+    <string name="projection_projector_colormode_cool">冷色</string>
+    
+    <string name="projector_contrast">对比度调节</string>
+    <string name="projector_brightness">亮度调节</string>
+    <string name="projector_saturation">饱和度调节</string>
+    <string name="projector_sharpness">清晰度调节</string>
+    
+     <string name="projector_screensaver">屏幕保护</string>
+     <string name="projector_screensaver_title">互动屏保</string>
+    <string name="projector_screensaver_close">关 </string>
+    <string name="projector_screensaver_04">4分钟</string>
+    <string name="projector_screensaver_08">8分钟</string>
+    <string name="projector_screensaver_12">12分钟</string>
+    <string name="projector_poweroff">自动关机</string>
+    <string name="projector_poweroff_close">关 </string>
+    <string name="projector_poweroff_05">5分钟</string>
+    <string name="projector_poweroff_10">10分钟</string>
+    <string name="projector_poweroff_30">30分钟</string>
+    <!-- Boot Souce -->
+    <string name="prjection_bootSource">开机源</string>
+    <string name="prjection_bootSource_none">关闭</string>
+    <string name="prjection_bootSource_hdmi">HDMI</string>
+    <string name="prjection_bootSource_international_hdmi">HD 多媒体</string>
+    
+    <string name="prjection_spdif">扬声器开关 </string>
+    <string name="prjection_bootSource_hdmi_1">HDMI 1</string>
+	<string name="prjection_bootSource_hdmi_2">HDMI 2</string>
+	<string name="prjection_bootSource_hdmi_3">HDMI 3</string>
+	<string name="prjection_bootSource_hdmi_international_1">HD 多媒体 1</string>
+    <string name="prjection_bootSource_hdmi_international_2">HD 多媒体 2</string>
+    <string name="prjection_bootSource_hdmi_international_3">HD 多媒体 3</string>
+	
+	<string name="projection_hdmimode_title">HDMI显示模式</string>
+	<string name="projection_hdmimode_international_title">HD 多媒体 显示模式</string>
+	 
+    <string name="projection_hdmimode_pc">PC 模式</string>
+    <string name="projection_hdmimode_dvd">DVD 模式</string>
+    
+    <string name="projection_scale_horizental">水平缩放</string>
+    <string name="projection_scale_vertival">垂直缩放</string>
+    <string name="projection_scale_proportional">比例缩放</string>
+    
+    <string name="info_typec_arrive_max_title">亮度限制!</string>
+    <string name="info_typec_arrive_max_message">当前电源适配器供电过低,若想调节更高亮度，请使用标配适配器!</string>
+    
+	<string name="projection_hdmimode_auto">自动模式</string>
+</resources>

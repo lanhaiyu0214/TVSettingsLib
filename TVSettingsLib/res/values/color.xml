@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_head_bg">#7f4d5154</color>
+    <color name="color_head_text">#353739</color>
+    <color name="color_content_bg">#99ffffff</color>
+    <color name="color_content_text">#000000</color>
+    <color name="wifi_item_textcolor">#1e272d</color>
+    <color name="dialog_base_color">#33B5E5</color>
+    <color name="color_titleline">#7c7c7c</color>
+    <color name="color_line_c2c2c2">#c2c2c2</color>
+    <color name="color_background">#99ffffff</color>
+
+    <color name="wifi_dialog_head_line">#7c7c7c</color>
+    <color name="color_wifi_item_title">#353739</color>
+    <color name="color_wifi_item_sub">#757575</color>
+    <color name="color_wifi_item_line">#999999</color>
+    <color name="color_wifi_dialog_btn">#cdcdcd</color>
+    <color name="color_wifi_dialog_btn_select">#4686b7</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#9D9D9D</color>
+    
+    <color name="color_item_bg">#99cccccc</color>
+    <color name="dialog_color_bg">#66000000</color>
+    <color name="dialog_text_color_select">#ffffffff</color>
+    <color name="dialog_text_color_nomal">#B2ffffff</color>
+    
+    <color name="main_item_second_color">#ccffffff</color>
+    
+    <color name="popwin_color_text_select">#ffd200</color>
+    <color name="popwin_color_text">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+</resources>

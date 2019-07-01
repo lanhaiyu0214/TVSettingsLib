@@ -1,0 +1,101 @@
+import org.tmatesoft.svn.core.wc.*
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath group: 'org.tmatesoft.svnkit', name: 'svnkit', version: '1.8.11'
+    }
+    
+    
+
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.1"
+    }
+
+    signingConfigs {
+        debug {
+
+        }
+        release {
+            //storeFile file()
+            //storePassword ""
+            //keyAlias ""
+            //keyPassword ""
+        }
+    }
+
+
+    buildTypes {
+        debug {
+            versionNameSuffix "--debugtest"
+            minifyEnabled false
+            shrinkResources false
+        }
+
+        release {
+            versionNameSuffix "--svn${getSvnRevision()}"
+            minifyEnabled false
+            zipAlignEnabled true
+            shrinkResources true
+            //signingConfig signingConfigs.release
+            //proguardFiles getDefautProguardFile('proguard-project.txt'),'proguard-rules.pro'
+
+        }
+    }
+    sourceSets {
+        main{
+            manifest.srcFile 'AndroidManifest.xml'
+
+            java.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+
+        }
+    }
+
+    dependencies {
+        compile fileTree(dir:'libs', include:['*.jar'])
+
+    }
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs.add('-Xbootclasspath/p:../../Libs/prj.jar;../libs/framework_classes.jar;../../XMUI_AP15/AP15_Libs/apposdk.jar')
+            
+        }
+    }
+}
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+def getSvnRevision() {
+    ISVNOptions options = SVNWCUtil.createDefaultOptions(true);
+    SVNClientManager clientManager = SVNClientManager.newInstance(options);
+    SVNStatusClient statusClient = clientManager.getStatusClient();
+    SVNStatus status = statusClient.doStatus(projectDir, false);
+    SVNRevision revision = status.getCommittedRevision();
+    return revision.getNumber();
+}
