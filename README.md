@@ -1,6 +1,7 @@
 # TVSettingsLib
 This lib can help you finsh the UI of TV Settings easily. And it is a little pretty.
-
+Entry.png
+![image](https://github.com/lanhaiyu0214/TVSettingsLib/Entry-1.png)
 #### What does the lib can do ?
 This lib can help you finsh the UI of TV Settings easily. And it is a little pretty.
 
